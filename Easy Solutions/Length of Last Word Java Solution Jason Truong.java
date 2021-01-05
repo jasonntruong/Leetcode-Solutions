@@ -14,9 +14,6 @@ class Solution {
             if (s.charAt(i) != ' ')    counter++;  //if a non-space character is found, counter goes up indicating a word is found
             
             else if (s.charAt(i) == ' ' && counter != 0) break;  //if a space and a word was found, that means the word found was the last word so we break
-            
-            
-            
         }
         
         return counter;
